@@ -2,7 +2,7 @@ import os
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from huggingface_hub import snapshot_download
 
-HF_TOKEN = "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"
+HF_TOKEN = ""
 MODEL_DIR_PATH = "/Users/tusharmungle/Documents/Projects/llm_prompting/models"
 
 
@@ -94,3 +94,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
